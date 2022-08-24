@@ -23,12 +23,12 @@ function App() {
             </div>
           </div>
 
-          <div className="sm:flex justify-between gap-10 items-center">
-            <div className="sm:w-1/2 sm:pb-64">
-              <p className="text-black text-3xl sm:text-5xl font-bold text-center sm:text-start">
+          <div className="sm:flex justify-between gap-10 items-start">
+            <div className="sm:w-1/2">
+              <p className="text-black text-3xl sm:text-5xl font-bold text-center sm:text-start mt-48">
                 Measure ID Treasury
               </p>
-              <p className="text-black/75 mt-10 text-lg sm:text-xl text-center">
+              <p className="text-black/75 mt-10 text-lg sm:text-xl text-center sm:text-start">
                 User controlled access to personal data One stop location for ID
                 services
               </p>
