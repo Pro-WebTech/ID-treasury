@@ -4,8 +4,9 @@ function App() {
   return (
     <div className="">
       <div className="bg-gradient-to-l from-[#62BADA] to-[#C9E7F2] w-full h-full sm:h-screen sm:overflow-hidden">
-        <div className="max-w-[1280px] w-11/12 m-auto">
-          <div className="sm:flex justify-between items-center gap-10 py-10">
+        <div className="max-w-[1280px] w-11/12 m-auto pt-20">
+          <img src="/img/logo.png" alt="" className="h-20 m-auto sm:m-0" />
+          {/* <div className="sm:flex justify-between items-center gap-10 py-10">
             <p className="text-black text-center sm:text-start font-bold text-2xl">
               ID Treasury. IO
             </p>
@@ -21,11 +22,11 @@ function App() {
                 Start Free
               </button>
             </div>
-          </div>
+          </div> */}
 
           <div className="sm:flex justify-between gap-10 items-start">
             <div className="sm:w-1/2">
-              <p className="text-black text-3xl sm:text-5xl font-bold text-center sm:text-start mt-48">
+              <p className="text-black text-3xl sm:text-8xl font-bold text-center sm:text-start mt-20 sm:mt-[140px]">
                 Measure ID Treasury
               </p>
               <p className="text-black/75 mt-10 text-lg sm:text-xl text-center sm:text-start">
@@ -33,7 +34,7 @@ function App() {
                 services
               </p>
 
-              <div className="flex justify-center sm:justify-start gap-10 mt-10 sm:mt-20">
+              {/* <div className="flex justify-center sm:justify-start gap-10 mt-10 sm:mt-20">
                 <button className="bg-[#3734A9] text-white rounded-full px-10 py-3">
                   Get Started
                 </button>
@@ -41,9 +42,9 @@ function App() {
                   <img src="/img/play.png" alt="" />
                   See How It Works
                 </button>
-              </div>
+              </div> */}
 
-              <div className="mt-5 sm:mt-10 flex justify-center sm:justify-start gap-10">
+              {/* <div className="mt-5 sm:mt-10 flex justify-center sm:justify-start gap-10">
                 <div className="flex items-center gap-2 text-[#757095]">
                   <img src="/img/check.png" alt="" />
                   <p>Free Register</p>
@@ -52,7 +53,7 @@ function App() {
                   <img src="/img/check.png" alt="" />
                   <p>Creat Service</p>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="sm:w-1/2">
               <img
