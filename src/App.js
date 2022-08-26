@@ -5,7 +5,14 @@ function App() {
     <div className="">
       <div className="bg-gradient-to-l from-[#62BADA] to-[#C9E7F2] w-full h-full sm:h-screen sm:overflow-hidden">
         <div className="max-w-[1280px] w-11/12 m-auto pt-20">
-          <img src="/img/logo.png" alt="" className="h-20 m-auto sm:m-0" />
+          <a
+            href="https://www.Block2AI.com"
+            target="_blank"
+            without
+            rel="noreferrer"
+          >
+            <img src="/img/logo.png" alt="" className="h-20 m-auto sm:m-0" />
+          </a>
           {/* <div className="sm:flex justify-between items-center gap-10 py-10">
             <p className="text-black text-center sm:text-start font-bold text-2xl">
               ID Treasury. IO
@@ -27,12 +34,15 @@ function App() {
           <div className="sm:flex justify-between gap-10 items-start">
             <div className="sm:w-1/2">
               <p className="text-black text-3xl sm:text-8xl font-bold text-center sm:text-start mt-20 sm:mt-[140px]">
-                Measure ID Treasury
+                Metaverse ID Treasury
               </p>
-              <p className="text-black/75 mt-10 text-lg sm:text-xl text-center sm:text-start">
+              <p className="text-black/75 mt-10 text-lg sm:text-xl text-center sm:text-start w-8/12">
                 User controlled access to personal data One stop location for ID
                 services
               </p>
+              <div className="flex justify-end">
+                <img src="/img/coming.png" alt="" className="-mt-40" />
+              </div>
 
               {/* <div className="flex justify-center sm:justify-start gap-10 mt-10 sm:mt-20">
                 <button className="bg-[#3734A9] text-white rounded-full px-10 py-3">
